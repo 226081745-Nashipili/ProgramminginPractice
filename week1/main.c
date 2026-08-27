@@ -16,16 +16,16 @@ int main()
 
     /* Get user information */
     printf("Enter Municipality Name: ");
-    scanf(" %s", municipality);
+    scanf("%s", &municipality);
 
     printf("Enter Mayor's Name: ");
-    scanf(" %[^\n]", mayor);
+    scanf("%s", &mayor);
 
     printf("Enter Population: ");
     scanf("%d", &population);
 
     /* Display report */
-    printf("\n============================================\n");
+    printf("============================================\n");
     printf("       MUNICIPAL INFORMATION REPORT\n");
     printf("============================================\n");
     printf("Municipality Name : %s\n", municipality);
